@@ -1,0 +1,2 @@
+# ZPPerformanceOptimization_CatonAnalysis
+本Demo主要介绍了在屏幕成像的过程中CPU和GPU的作用，还介绍了屏幕卡顿的原因，还介绍了如何通过CPU和GPU来减少卡顿。
