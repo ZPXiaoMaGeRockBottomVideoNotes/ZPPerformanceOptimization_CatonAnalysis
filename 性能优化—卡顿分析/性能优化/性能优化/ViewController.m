@@ -48,7 +48,7 @@
  
  下面的这些操作会触发离屏渲染，应尽量避免：
  1、设置光栅化：layer.shouldRasterize = YES；
- 2、这只遮罩：layer.mask；
+ 2、设置遮罩：layer.mask；
  3、设置圆角：同时设置"layer.masksToBounds = YES"和"layer.cornerRadius大于0"两句代码，如果只单独设置其中的一句代码的话则不会触发离屏渲染。为了避免离屏渲染，应该考虑通过CoreGraphics绘制裁剪圆角，或者让美工提供带圆角的图片；
  4、设置阴影：layer.shadowXXX。如果设置了layer.shadowPath就不会产生离屏渲染。
  */
